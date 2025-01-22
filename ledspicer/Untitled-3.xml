@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LEDSpicer
+        version="1.0"
+        type="Configuration"
+        fps="30"
+        port="16161"
+        colors="basicColors"
+        logLevel="Info"
+        userId="1000"
+        groupId="1000"
+        craftProfile="true"
+        dataSource="controls.ini, mame, file"
+        colorsFile="true"
+        randomColors="Red, Blue, Green, Yellow"
+>
+    <devices>
+        <device name="Adalight" leds="216" port="/dev/ttyUSB0" boardId="1">
+            <!-- P1 Side -->
+            <!-- P1 Button A (LEDs 1-9) -->
+            <element name="P1_BUTTONA_1" green="1" red="2" blue="3"/>
+            <element name="P1_BUTTONA_2" green="4" red="5" blue="6"/>
+            <element name="P1_BUTTONA_3" green="7" red="8" blue="9"/>
+
+            <!-- P1 Button B (LEDs 10-18) -->
+            <element name="P1_BUTTONB_1" green="10" red="11" blue="12"/>
+            <element name="P1_BUTTONB_2" green="13" red="14" blue="15"/>
+            <element name="P1_BUTTONB_3" green="16" red="17" blue="18"/>
+
+            <!-- P1 Button C (LEDs 19-27) -->
+            <element name="P1_BUTTONC_1" green="19" red="20" blue="21"/>
+            <element name="P1_BUTTONC_2" green="22" red="23" blue="24"/>
+            <element name="P1_BUTTONC_3" green="25" red="26" blue="27"/>
+
+            <!-- P1 Button J (LEDs 28-36) -->
+            <element name="P1_BUTTONJ_1" green="28" red="29" blue="30"/>
+            <element name="P1_BUTTONJ_2" green="31" red="32" blue="33"/>
+            <element name="P1_BUTTONJ_3" green="34" red="35" blue="36"/>
+
+            <!-- P1 Button K (LEDs 37-45) -->
+            <element name="P1_BUTTONK_1" green="37" red="38" blue="39"/>
+            <element name="P1_BUTTONK_2" green="40" red="41" blue="42"/>
+            <element name="P1_BUTTONK_3" green="43" red="44" blue="45"/>
+
+            <!-- P1 Button Z (LEDs 46-54) -->
+            <element name="P1_BUTTONZ_1" green="46" red="47" blue="48"/>
+            <element name="P1_BUTTONZ_2" green="49" red="50" blue="51"/>
+            <element name="P1_BUTTONZ_3" green="52" red="53" blue="54"/>
+
+            <!-- P1 Button Y (LEDs 55-63) -->
+            <element name="P1_BUTTONY_1" green="55" red="56" blue="57"/>
+            <element name="P1_BUTTONY_2" green="58" red="59" blue="60"/>
+            <element name="P1_BUTTONY_3" green="61" red="62" blue="63"/>
+
+            <!-- P1 Button X (LEDs 64-72) -->
+            <element name="P1_BUTTONX_1" green="64" red="65" blue="66"/>
+            <element name="P1_BUTTONX_2" green="67" red="68" blue="69"/>
+            <element name="P1_BUTTONX_3" green="70" red="71" blue="72"/>
+
+            <!-- P1 Start (LEDs 73-81) -->
+            <element name="P1_START_1" green="73" red="74" blue="75"/>
+            <element name="P1_START_2" green="76" red="77" blue="78"/>
+            <element name="P1_START_3" green="79" red="80" blue="81"/>
+
+            <!-- P1 Coin (LEDs 82-90) -->
+            <element name="P1_COIN_1" green="82" red="83" blue="84"/>
+            <element name="P1_COIN_2" green="85" red="86" blue="87"/>
+            <element name="P1_COIN_3" green="88" red="89" blue="90"/>
+
+            <!-- System Buttons -->
+            <!-- Home (LEDs 91-99) -->
+            <element name="HOME_1" green="91" red="92" blue="93"/>
+            <element name="HOME_2" green="94" red="95" blue="96"/>
+            <element name="HOME_3" green="97" red="98" blue="99"/>
+
+            <!-- Extra 1 (LEDs 100-108) -->
+            <element name="EXTRA1_1" green="100" red="101" blue="102"/>
+            <element name="EXTRA1_2" green="103" red="104" blue="105"/>
+            <element name="EXTRA1_3" green="106" red="107" blue="108"/>
+
+            <!-- Extra 2 (LEDs 109-117) -->
+            <element name="EXTRA2_1" green="109" red="110" blue="111"/>
+            <element name="EXTRA2_2" green="112" red="113" blue="114"/>
+            <element name="EXTRA2_3" green="115" red="116" blue="117"/>
+
+            <!-- Extra 3 (LEDs 118-126) -->
+            <element name="EXTRA3_1" green="118" red="119" blue="120"/>
+            <element name="EXTRA3_2" green="121" red="122" blue="123"/>
+            <element name="EXTRA3_3" green="124" red="125" blue="126"/>
+
+            <!-- P2 Side -->
+            <!-- P2 Start (LEDs 127-135) -->
+            <element name="P2_START_1" green="127" red="128" blue="129"/>
+            <element name="P2_START_2" green="130" red="131" blue="132"/>
+            <element name="P2_START_3" green="133" red="134" blue="135"/>
+
+            <!-- P2 COIN (LEDs 136-144) -->
+            <element name="P2_COIN_1" green="136" red="137" blue="138"/>
+            <element name="P2_COIN_2" green="139" red="140" blue="141"/>
+            <element name="P2_COIN_3" green="142" red="143" blue="144"/>
+
+            <!-- P2 Button X (LEDs 145-153) -->
+            <element name="P2_BUTTONX_1" green="145" red="146" blue="147"/>
+            <element name="P2_BUTTONX_2" green="148" red="149" blue="150"/>
+            <element name="P2_BUTTONX_3" green="151" red="152" blue="153"/>
+
+            <!-- P2 Button Y (LEDs 154-162) -->
+            <element name="P2_BUTTONY_1" green="154" red="155" blue="156"/>
+            <element name="P2_BUTTONY_2" green="157" red="158" blue="159"/>
+            <element name="P2_BUTTONY_3" green="160" red="161" blue="162"/>
+
+            <!-- P2 Button Z (LEDs 163-171) -->
+            <element name="P2_BUTTONZ_1" green="163" red="164" blue="165"/>
+            <element name="P2_BUTTONZ_2" green="166" red="167" blue="168"/>
+            <element name="P2_BUTTONZ_3" green="169" red="170" blue="171"/>
+
+            <!-- P2 Button K (LEDs 172-180) -->
+            <element name="P2_BUTTONK_1" green="172" red="173" blue="174"/>
+            <element name="P2_BUTTONK_2" green="175" red="176" blue="177"/>
+            <element name="P2_BUTTONK_3" green="178" red="179" blue="180"/>
+
+            <!-- P2 Button J (LEDs 181-189) -->
+            <element name="P2_BUTTONJ_1" green="181" red="182" blue="183"/>
+            <element name="P2_BUTTONJ_2" green="184" red="185" blue="186"/>
+            <element name="P2_BUTTONJ_3" green="187" red="188" blue="189"/>
+
+            <!-- P2 Button C (LEDs 190-198) -->
+            <element name="P2_BUTTONC_1" green="190" red="191" blue="192"/>
+            <element name="P2_BUTTONC_2" green="193" red="194" blue="195"/>
+            <element name="P2_BUTTONC_3" green="196" red="197" blue="198"/>
+
+            <!-- P2 Button B (LEDs 199-207) -->
+            <element name="P2_BUTTONB_1" green="199" red="200" blue="201"/>
+            <element name="P2_BUTTONB_2" green="202" red="203" blue="204"/>
+            <element name="P2_BUTTONB_3" green="205" red="206" blue="207"/>
+
+            <!-- P2 Button A (LEDs 208-216) -->
+            <element name="P2_BUTTONA_1" green="208" red="209" blue="210"/>
+            <element name="P2_BUTTONA_2" green="211" red="212" blue="213"/>
+            <element name="P2_BUTTONA_3" green="214" red="215" blue="216"/>
+        </device>
+    </devices>
+
+<layout defaultProfile="default">
+    <group name="All">
+        <!-- P1 Side -->
+        <element name="P1_BUTTONA_1"/><element name="P1_BUTTONA_2"/><element name="P1_BUTTONA_3"/>
+        <element name="P1_BUTTONB_1"/><element name="P1_BUTTONB_2"/><element name="P1_BUTTONB_3"/>
+        <element name="P1_BUTTONC_1"/><element name="P1_BUTTONC_2"/><element name="P1_BUTTONC_3"/>
+        <element name="P1_BUTTONJ_1"/><element name="P1_BUTTONJ_2"/><element name="P1_BUTTONJ_3"/>
+        <element name="P1_BUTTONK_1"/><element name="P1_BUTTONK_2"/><element name="P1_BUTTONK_3"/>
+        <element name="P1_BUTTONZ_1"/><element name="P1_BUTTONZ_2"/><element name="P1_BUTTONZ_3"/>
+        <element name="P1_BUTTONY_1"/><element name="P1_BUTTONY_2"/><element name="P1_BUTTONY_3"/>
+        <element name="P1_BUTTONX_1"/><element name="P1_BUTTONX_2"/><element name="P1_BUTTONX_3"/>
+        <element name="P1_START_1"/><element name="P1_START_2"/><element name="P1_START_3"/>
+        <element name="P1_COIN_1"/><element name="P1_COIN_2"/><element name="P1_COIN_3"/>
+
+        <!-- System -->
+        <element name="HOME_1"/><element name="HOME_2"/><element name="HOME_3"/>
+        <element name="EXTRA1_1"/><element name="EXTRA1_2"/><element name="EXTRA1_3"/>
+        <element name="EXTRA2_1"/><element name="EXTRA2_2"/><element name="EXTRA2_3"/>
+        <element name="EXTRA3_1"/><element name="EXTRA3_2"/><element name="EXTRA3_3"/>
+
+        <!-- P2 Side -->
+        <element name="P2_START_1"/><element name="P2_START_2"/><element name="P2_START_3"/>
+        <element name="P2_COIN_1"/><element name="P2_COIN_2"/><element name="P2_COIN_3"/>
+        <element name="P2_BUTTONX_1"/><element name="P2_BUTTONX_2"/><element name="P2_BUTTONX_3"/>
+        <element name="P2_BUTTONY_1"/><element name="P2_BUTTONY_2"/><element name="P2_BUTTONY_3"/>
+        <element name="P2_BUTTONZ_1"/><element name="P2_BUTTONZ_2"/><element name="P2_BUTTONZ_3"/>
+        <element name="P2_BUTTONK_1"/><element name="P2_BUTTONK_2"/><element name="P2_BUTTONK_3"/>
+        <element name="P2_BUTTONJ_1"/><element name="P2_BUTTONJ_2"/><element name="P2_BUTTONJ_3"/>
+        <element name="P2_BUTTONC_1"/><element name="P2_BUTTONC_2"/><element name="P2_BUTTONC_3"/>
+        <element name="P2_BUTTONB_1"/><element name="P2_BUTTONB_2"/><element name="P2_BUTTONB_3"/>
+        <element name="P2_BUTTONA_1"/><element name="P2_BUTTONA_2"/><element name="P2_BUTTONA_3"/>
+    </group>
+
+    <group name="player 1">
+        <!-- P1 Buttons -->
+        <element name="P1_BUTTONA_1"/><element name="P1_BUTTONA_2"/><element name="P1_BUTTONA_3"/>
+        <element name="P1_BUTTONB_1"/><element name="P1_BUTTONB_2"/><element name="P1_BUTTONB_3"/>
+        <element name="P1_BUTTONC_1"/><element name="P1_BUTTONC_2"/><element name="P1_BUTTONC_3"/>
+        <element name="P1_BUTTONJ_1"/><element name="P1_BUTTONJ_2"/><element name="P1_BUTTONJ_3"/>
+        <element name="P1_BUTTONK_1"/><element name="P1_BUTTONK_2"/><element name="P1_BUTTONK_3"/>
+        <element name="P1_BUTTONZ_1"/><element name="P1_BUTTONZ_2"/><element name="P1_BUTTONZ_3"/>
+        <element name="P1_BUTTONY_1"/><element name="P1_BUTTONY_2"/><element name="P1_BUTTONY_3"/>
+        <element name="P1_BUTTONX_1"/><element name="P1_BUTTONX_2"/><element name="P1_BUTTONX_3"/>
+        <element name="P1_START_1"/><element name="P1_START_2"/><element name="P1_START_3"/>
+        <element name="P1_COIN_1"/><element name="P1_COIN_2"/><element name="P1_COIN_3"/>
+    </group>
+
+    <group name="player 2">
+        <!-- P2 Buttons -->
+        <element name="P2_START_1"/><element name="P2_START_2"/><element name="P2_START_3"/>
+        <element name="P2_COIN_1"/><element name="P2_COIN_2"/><element name="P2_COIN_3"/>
+        <element name="P2_BUTTONX_1"/><element name="P2_BUTTONX_2"/><element name="P2_BUTTONX_3"/>
+        <element name="P2_BUTTONY_1"/><element name="P2_BUTTONY_2"/><element name="P2_BUTTONY_3"/>
+        <element name="P2_BUTTONZ_1"/><element name="P2_BUTTONZ_2"/><element name="P2_BUTTONZ_3"/>
+        <element name="P2_BUTTONK_1"/><element name="P2_BUTTONK_2"/><element name="P2_BUTTONK_3"/>
+        <element name="P2_BUTTONJ_1"/><element name="P2_BUTTONJ_2"/><element name="P2_BUTTONJ_3"/>
+        <element name="P2_BUTTONC_1"/><element name="P2_BUTTONC_2"/><element name="P2_BUTTONC_3"/>
+        <element name="P2_BUTTONB_1"/><element name="P2_BUTTONB_2"/><element name="P2_BUTTONB_3"/>
+        <element name="P2_BUTTONA_1"/><element name="P2_BUTTONA_2"/><element name="P2_BUTTONA_3"/>
+    </group>
+</layout>
+</LEDSpicer>
